@@ -1,2 +1,2 @@
-#Load the projectge
+#Load the project
 library("ProjectTemplate"); load.project()
