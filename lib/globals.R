@@ -6,7 +6,8 @@ add.config(
   lastYr = as.numeric(format(Sys.Date(), format="%y")) - 1,
   LastYr4 = as.numeric(format(Sys.Date(), format="%Y"))-1,
   currentAY = as.numeric(paste(as.numeric(format(Sys.Date(), format="%y")) - 1, as.numeric(format(Sys.Date(), format="%y")), sep = "")),
-  header = "USG Tuition Differential" # header in reports
+  header = "USG Tuition Differential", # header in reports
+  variable_type = c(1, 1)
 )
 
 # Add project specific configuration that can be overridden from load.project()
